@@ -12,6 +12,8 @@
 		0EA266E41F9BB1F00046C740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA266E21F9BB1F00046C740 /* Main.storyboard */; };
 		0EA266E61F9BB1F00046C740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA266E51F9BB1F00046C740 /* Assets.xcassets */; };
 		0EA266E91F9BB1F00046C740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA266E71F9BB1F00046C740 /* LaunchScreen.storyboard */; };
+		0EDBD1961F9C7B7300D69E7C /* CustomURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBD1951F9C7B7300D69E7C /* CustomURLProtocol.swift */; };
+		0EDBD1981F9C7D7C00D69E7C /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 0EDBD1971F9C7D7C00D69E7C /* user.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0EA266E51F9BB1F00046C740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EA266E81F9BB1F00046C740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EA266EA1F9BB1F00046C740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EDBD1951F9C7B7300D69E7C /* CustomURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomURLProtocol.swift; sourceTree = "<group>"; };
+		0EDBD1971F9C7D7C00D69E7C /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		0EA266DD1F9BB1F00046C740 /* URLProtocolSample */ = {
 			isa = PBXGroup;
 			children = (
+				0EDBD1971F9C7D7C00D69E7C /* user.json */,
 				0EA266DE1F9BB1F00046C740 /* AppDelegate.swift */,
 				0EA266E01F9BB1F00046C740 /* ViewController.swift */,
 				0EA266E21F9BB1F00046C740 /* Main.storyboard */,
 				0EA266E51F9BB1F00046C740 /* Assets.xcassets */,
 				0EA266E71F9BB1F00046C740 /* LaunchScreen.storyboard */,
 				0EA266EA1F9BB1F00046C740 /* Info.plist */,
+				0EDBD1951F9C7B7300D69E7C /* CustomURLProtocol.swift */,
 			);
 			path = URLProtocolSample;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EDBD1981F9C7D7C00D69E7C /* user.json in Resources */,
 				0EA266E91F9BB1F00046C740 /* LaunchScreen.storyboard in Resources */,
 				0EA266E61F9BB1F00046C740 /* Assets.xcassets in Resources */,
 				0EA266E41F9BB1F00046C740 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			files = (
 				0EA266E11F9BB1F00046C740 /* ViewController.swift in Sources */,
 				0EA266DF1F9BB1F00046C740 /* AppDelegate.swift in Sources */,
+				0EDBD1961F9C7B7300D69E7C /* CustomURLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

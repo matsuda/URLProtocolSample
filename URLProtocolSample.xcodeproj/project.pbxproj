@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E80BF571FA4E168000FE09B /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E80BF541FA4E168000FE09B /* Result.framework */; };
-		0E80BF581FA4E168000FE09B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E80BF551FA4E168000FE09B /* Alamofire.framework */; };
-		0E80BF591FA4E168000FE09B /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E80BF561FA4E168000FE09B /* APIKit.framework */; };
 		0EA266DF1F9BB1F00046C740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA266DE1F9BB1F00046C740 /* AppDelegate.swift */; };
-		0EA266E11F9BB1F00046C740 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA266E01F9BB1F00046C740 /* ViewController.swift */; };
 		0EA266E41F9BB1F00046C740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA266E21F9BB1F00046C740 /* Main.storyboard */; };
 		0EA266E61F9BB1F00046C740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA266E51F9BB1F00046C740 /* Assets.xcassets */; };
 		0EA266E91F9BB1F00046C740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA266E71F9BB1F00046C740 /* LaunchScreen.storyboard */; };
+		0EC0835A1FB8A9EB004A3D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA266DE1F9BB1F00046C740 /* AppDelegate.swift */; };
+		0EC0835B1FB8A9EB004A3D1B /* CustomURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBD1951F9C7B7300D69E7C /* CustomURLProtocol.swift */; };
+		0EC0835E1FB8A9EB004A3D1B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E80BF551FA4E168000FE09B /* Alamofire.framework */; };
+		0EC083611FB8A9EB004A3D1B /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 0EDBD1971F9C7D7C00D69E7C /* user.json */; };
+		0EC083621FB8A9EB004A3D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA266E71F9BB1F00046C740 /* LaunchScreen.storyboard */; };
+		0EC083631FB8A9EB004A3D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA266E51F9BB1F00046C740 /* Assets.xcassets */; };
+		0EC083641FB8A9EB004A3D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA266E21F9BB1F00046C740 /* Main.storyboard */; };
+		0EC0836E1FB8AA02004A3D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA266DE1F9BB1F00046C740 /* AppDelegate.swift */; };
+		0EC0836F1FB8AA02004A3D1B /* CustomURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBD1951F9C7B7300D69E7C /* CustomURLProtocol.swift */; };
+		0EC083711FB8AA02004A3D1B /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E80BF541FA4E168000FE09B /* Result.framework */; };
+		0EC083731FB8AA02004A3D1B /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E80BF561FA4E168000FE09B /* APIKit.framework */; };
+		0EC083751FB8AA02004A3D1B /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 0EDBD1971F9C7D7C00D69E7C /* user.json */; };
+		0EC083761FB8AA02004A3D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA266E71F9BB1F00046C740 /* LaunchScreen.storyboard */; };
+		0EC083771FB8AA02004A3D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA266E51F9BB1F00046C740 /* Assets.xcassets */; };
+		0EC083781FB8AA02004A3D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA266E21F9BB1F00046C740 /* Main.storyboard */; };
+		0EC083811FB8ABA8004A3D1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC083801FB8ABA8004A3D1B /* ViewController.swift */; };
+		0EC083851FB8ABC1004A3D1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC083831FB8ABBB004A3D1B /* ViewController.swift */; };
+		0EC083891FB8ABD5004A3D1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC083871FB8ABD1004A3D1B /* ViewController.swift */; };
 		0EDBD1961F9C7B7300D69E7C /* CustomURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBD1951F9C7B7300D69E7C /* CustomURLProtocol.swift */; };
 		0EDBD1981F9C7D7C00D69E7C /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 0EDBD1971F9C7D7C00D69E7C /* user.json */; };
 /* End PBXBuildFile section */
@@ -25,11 +39,15 @@
 		0E80BF561FA4E168000FE09B /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
 		0EA266DB1F9BB1F00046C740 /* URLProtocolSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLProtocolSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA266DE1F9BB1F00046C740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0EA266E01F9BB1F00046C740 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0EA266E31F9BB1F00046C740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EA266E51F9BB1F00046C740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EA266E81F9BB1F00046C740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EA266EA1F9BB1F00046C740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC083691FB8A9EB004A3D1B /* AlamofireURLProtocolSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireURLProtocolSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC0837D1FB8AA02004A3D1B /* APIKitURLProtocolSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIKitURLProtocolSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC083801FB8ABA8004A3D1B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EC083831FB8ABBB004A3D1B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EC083871FB8ABD1004A3D1B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0EDBD1951F9C7B7300D69E7C /* CustomURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomURLProtocol.swift; sourceTree = "<group>"; };
 		0EDBD1971F9C7D7C00D69E7C /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,9 +57,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E80BF571FA4E168000FE09B /* Result.framework in Frameworks */,
-				0E80BF581FA4E168000FE09B /* Alamofire.framework in Frameworks */,
-				0E80BF591FA4E168000FE09B /* APIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC0835C1FB8A9EB004A3D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC0835E1FB8A9EB004A3D1B /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC083701FB8AA02004A3D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC083711FB8AA02004A3D1B /* Result.framework in Frameworks */,
+				0EC083731FB8AA02004A3D1B /* APIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				0EA266DB1F9BB1F00046C740 /* URLProtocolSample.app */,
+				0EC083691FB8A9EB004A3D1B /* AlamofireURLProtocolSample.app */,
+				0EC0837D1FB8AA02004A3D1B /* APIKitURLProtocolSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,14 +114,40 @@
 			children = (
 				0EDBD1971F9C7D7C00D69E7C /* user.json */,
 				0EA266DE1F9BB1F00046C740 /* AppDelegate.swift */,
-				0EA266E01F9BB1F00046C740 /* ViewController.swift */,
 				0EA266E21F9BB1F00046C740 /* Main.storyboard */,
 				0EA266E51F9BB1F00046C740 /* Assets.xcassets */,
 				0EA266E71F9BB1F00046C740 /* LaunchScreen.storyboard */,
 				0EA266EA1F9BB1F00046C740 /* Info.plist */,
 				0EDBD1951F9C7B7300D69E7C /* CustomURLProtocol.swift */,
+				0EC0837F1FB8ABA8004A3D1B /* Base */,
+				0EC083821FB8ABBB004A3D1B /* Alamofire */,
+				0EC083861FB8ABD1004A3D1B /* APIKit */,
 			);
 			path = URLProtocolSample;
+			sourceTree = "<group>";
+		};
+		0EC0837F1FB8ABA8004A3D1B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0EC083801FB8ABA8004A3D1B /* ViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0EC083821FB8ABBB004A3D1B /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				0EC083831FB8ABBB004A3D1B /* ViewController.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		0EC083861FB8ABD1004A3D1B /* APIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0EC083871FB8ABD1004A3D1B /* ViewController.swift */,
+			);
+			path = APIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,7 +160,6 @@
 				0EA266D71F9BB1F00046C740 /* Sources */,
 				0EA266D81F9BB1F00046C740 /* Frameworks */,
 				0EA266D91F9BB1F00046C740 /* Resources */,
-				0E80BF5A1FA4E171000FE09B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -109,6 +168,42 @@
 			name = URLProtocolSample;
 			productName = URLProtocolSample;
 			productReference = 0EA266DB1F9BB1F00046C740 /* URLProtocolSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EC083571FB8A9EB004A3D1B /* AlamofireURLProtocolSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EC083661FB8A9EB004A3D1B /* Build configuration list for PBXNativeTarget "AlamofireURLProtocolSample" */;
+			buildPhases = (
+				0EC083581FB8A9EB004A3D1B /* Sources */,
+				0EC0835C1FB8A9EB004A3D1B /* Frameworks */,
+				0EC083601FB8A9EB004A3D1B /* Resources */,
+				0EC083651FB8A9EB004A3D1B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlamofireURLProtocolSample;
+			productName = URLProtocolSample;
+			productReference = 0EC083691FB8A9EB004A3D1B /* AlamofireURLProtocolSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EC0836B1FB8AA02004A3D1B /* APIKitURLProtocolSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EC0837A1FB8AA02004A3D1B /* Build configuration list for PBXNativeTarget "APIKitURLProtocolSample" */;
+			buildPhases = (
+				0EC0836C1FB8AA02004A3D1B /* Sources */,
+				0EC083701FB8AA02004A3D1B /* Frameworks */,
+				0EC083741FB8AA02004A3D1B /* Resources */,
+				0EC083791FB8AA02004A3D1B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APIKitURLProtocolSample;
+			productName = URLProtocolSample;
+			productReference = 0EC0837D1FB8AA02004A3D1B /* APIKitURLProtocolSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,6 +218,12 @@
 				TargetAttributes = {
 					0EA266DA1F9BB1F00046C740 = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					0EC083571FB8A9EB004A3D1B = {
+						ProvisioningStyle = Automatic;
+					};
+					0EC0836B1FB8AA02004A3D1B = {
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -141,6 +242,8 @@
 			projectRoot = "";
 			targets = (
 				0EA266DA1F9BB1F00046C740 /* URLProtocolSample */,
+				0EC083571FB8A9EB004A3D1B /* AlamofireURLProtocolSample */,
+				0EC0836B1FB8AA02004A3D1B /* APIKitURLProtocolSample */,
 			);
 		};
 /* End PBXProject section */
@@ -157,16 +260,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0EC083601FB8A9EB004A3D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC083611FB8A9EB004A3D1B /* user.json in Resources */,
+				0EC083621FB8A9EB004A3D1B /* LaunchScreen.storyboard in Resources */,
+				0EC083631FB8A9EB004A3D1B /* Assets.xcassets in Resources */,
+				0EC083641FB8A9EB004A3D1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC083741FB8AA02004A3D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC083751FB8AA02004A3D1B /* user.json in Resources */,
+				0EC083761FB8AA02004A3D1B /* LaunchScreen.storyboard in Resources */,
+				0EC083771FB8AA02004A3D1B /* Assets.xcassets in Resources */,
+				0EC083781FB8AA02004A3D1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0E80BF5A1FA4E171000FE09B /* ShellScript */ = {
+		0EC083651FB8A9EB004A3D1B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		0EC083791FB8AA02004A3D1B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/APIKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
 			);
@@ -183,9 +321,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EA266E11F9BB1F00046C740 /* ViewController.swift in Sources */,
+				0EC083811FB8ABA8004A3D1B /* ViewController.swift in Sources */,
 				0EA266DF1F9BB1F00046C740 /* AppDelegate.swift in Sources */,
 				0EDBD1961F9C7B7300D69E7C /* CustomURLProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC083581FB8A9EB004A3D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC083851FB8ABC1004A3D1B /* ViewController.swift in Sources */,
+				0EC0835A1FB8A9EB004A3D1B /* AppDelegate.swift in Sources */,
+				0EC0835B1FB8A9EB004A3D1B /* CustomURLProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC0836C1FB8AA02004A3D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC083891FB8ABD5004A3D1B /* ViewController.swift in Sources */,
+				0EC0836E1FB8AA02004A3D1B /* AppDelegate.swift in Sources */,
+				0EC0836F1FB8AA02004A3D1B /* CustomURLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +516,86 @@
 			};
 			name = Release;
 		};
+		0EC083671FB8A9EB004A3D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5YDXJ82CD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = URLProtocolSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.matsuda.URLProtocolSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EC083681FB8A9EB004A3D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5YDXJ82CD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = URLProtocolSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.matsuda.URLProtocolSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0EC0837B1FB8AA02004A3D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5YDXJ82CD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = URLProtocolSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.matsuda.URLProtocolSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EC0837C1FB8AA02004A3D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5YDXJ82CD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = URLProtocolSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.matsuda.URLProtocolSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -375,6 +613,24 @@
 			buildConfigurations = (
 				0EA266EE1F9BB1F00046C740 /* Debug */,
 				0EA266EF1F9BB1F00046C740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EC083661FB8A9EB004A3D1B /* Build configuration list for PBXNativeTarget "AlamofireURLProtocolSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC083671FB8A9EB004A3D1B /* Debug */,
+				0EC083681FB8A9EB004A3D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EC0837A1FB8AA02004A3D1B /* Build configuration list for PBXNativeTarget "APIKitURLProtocolSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC0837B1FB8AA02004A3D1B /* Debug */,
+				0EC0837C1FB8AA02004A3D1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
